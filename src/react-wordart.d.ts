@@ -1,1 +1,1 @@
-declare module 'react-wordart';
+declare module "react-wordart";
