@@ -3,6 +3,7 @@ import fflogo from "./res/images/fflogo.svg";
 import "./App.css";
 import WordArt from "react-wordart";
 import styled from "styled-components";
+import Draggable from "./Components/Draggable";
 
 const StyledApp = styled.div`
   background: linear-gradient(
@@ -17,8 +18,10 @@ const StyledApp = styled.div`
 function App() {
   return (
     <StyledApp className="App">
-      <img src={fflogo} className="App-logo" alt="logo" />
       <WordArt text="Fåntratt Fitness" theme={`italicOutline`} fontSize={100} />
+      <Draggable>
+        <img src={fflogo} className="App-logo" alt="logo" />
+      </Draggable>
     </StyledApp>
   );
 }
