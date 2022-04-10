@@ -5,18 +5,15 @@ import styled, { keyframes } from "styled-components";
 import Draggable from "./Draggable";
 
 const dance = keyframes`
-  from {
-    transform: rotate(-30deg);
-  }
-  to {
-    transform: rotate(30deg);
-  }
+  0%   {transform: rotate(-15deg);}
+  50%  {transform: rotate(15deg);}
+  100% {transform: rotate(-15deg);}
 }
 `;
 
 const StyledLogo = styled.img`
   height: 50vmin;
-  animation: ${dance} infinite 20s linear;
+  animation: ${dance} infinite 5s linear;
   pointer-events: none;
 `;
 
