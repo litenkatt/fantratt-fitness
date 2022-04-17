@@ -1,8 +1,8 @@
 import React from "react";
-import WordArt from "react-wordart";
-import styled from "styled-components";
-import Draggable from "./Components/Draggable";
-import BroccBro from "./Components/BroccBro";
+import styled, { ThemeProvider } from "styled-components";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Main from "./Components/Main";
 
 const StyledApp = styled.div`
   background: linear-gradient(
@@ -13,16 +13,23 @@ const StyledApp = styled.div`
   );
   height: 100vh;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 `;
+
+const theme = {
+  background: "#ffff57",
+};
 
 function App() {
   return (
-    <StyledApp className="App">
-      <WordArt text="Fåntratt Fitness" theme={`italicOutline`} fontSize={100} />
-      <BroccBro />
-    </StyledApp>
+    <ThemeProvider theme={theme}>
+      <StyledApp>
+        <Header />
+        <Main />
+        <Footer />
+      </StyledApp>
+    </ThemeProvider>
   );
 }
 
