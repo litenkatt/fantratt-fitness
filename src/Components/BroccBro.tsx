@@ -18,12 +18,12 @@ const StyledBroccBro = styled(animated.div)`
 
 function BroccBro() {
   const introProps = useSpring({
-    config: { duration: 5000 },
+    config: { mass: 5, friction: 100, bounce: 2 },
     from: { transform: "translateY(-50%) scale(0.2)", right: "95vw" },
     to: { transform: "translateY(-50%) scale(0.99)", right: "5vw" },
   });
   const danceProps = useSpring({
-    config: { mass: 1, tension: 120, friction: 20 },
+    config: { mass: 1.7, tension: 120, friction: 15, bounce: 1 },
     loop: { reverse: true },
     from: { transform: "rotate(-15deg)" },
     to: { transform: "rotate(15deg)" },

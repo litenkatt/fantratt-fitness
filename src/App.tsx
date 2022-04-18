@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { ThemeProvider } from "styled-components";
+import styled, { createGlobalStyle, ThemeProvider } from "styled-components";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Main from "./Components/Main";
@@ -15,15 +15,24 @@ const StyledApp = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
 `;
 
 const theme = {
-  background: "#ffff57",
+  background: "#782144",
+  darkBackground: "#444444",
 };
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+`;
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyle />
       <StyledApp>
         <Header />
         <Main />
