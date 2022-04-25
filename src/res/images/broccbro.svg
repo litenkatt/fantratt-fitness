@@ -34,7 +34,7 @@
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer2"
      height="296mm" />
   <defs
      id="defs2" />
@@ -143,7 +143,7 @@
      style="display:inline">
     <path
        sodipodi:type="star"
-       style="fill:#e4f000;fill-opacity:1;stroke:#000000;stroke-opacity:0.360324"
+       style="fill:#e4f000;fill-opacity:1;stroke:#000000;stroke-opacity:0.59514171;stroke-width:2.99404125;stroke-miterlimit:4;stroke-dasharray:none"
        id="path10934"
        inkscape:flatsided="true"
        sodipodi:sides="3"
@@ -160,7 +160,7 @@
        inkscape:transform-center-x="-0.020599801"
        inkscape:transform-center-y="7.6745858" />
     <rect
-       style="fill:#f6ff00;fill-opacity:1;stroke:#000000;stroke-width:0.278156;stroke-opacity:0.360324"
+       style="fill:#f6ff00;fill-opacity:1;stroke:#000000;stroke-width:0.75;stroke-opacity:0.59514171;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect9899"
        width="33.46312"
        height="27.67247"

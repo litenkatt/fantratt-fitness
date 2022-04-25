@@ -23,7 +23,7 @@ const StyledHeader = styled.div`
   & h1 {
     color: white;
     font-size: 5rem;
-    #a02c5a
+    -webkit-text-stroke: 3px black;
   }
 `;
 

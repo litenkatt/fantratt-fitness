@@ -5,12 +5,6 @@ import Header from "./Components/Header";
 import Main from "./Components/Main";
 
 const StyledApp = styled.div`
-  background: linear-gradient(
-    180deg,
-    rgba(120, 33, 68, 1) 0%,
-    rgba(24, 0, 10, 1) 55%,
-    rgba(255, 214, 230, 1) 100%
-  );
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,7 +13,7 @@ const StyledApp = styled.div`
 `;
 
 const theme = {
-  background: "#782144",
+  background: "#e4f000",
   darkBackground: "#444444",
 };
 

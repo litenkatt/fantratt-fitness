@@ -1,9 +1,7 @@
 import { animated, useSpring } from "@react-spring/web";
 import React from "react";
 import broccbro from "../res/images/broccbro.svg";
-import WordArt from "react-wordart";
 import styled, { keyframes } from "styled-components";
-import styled from "styled-components";
 import Draggable from "./Draggable";
 
 const StyledLogo = styled(animated.img)`
