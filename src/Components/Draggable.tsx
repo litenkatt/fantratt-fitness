@@ -1,9 +1,10 @@
-import React, { ReactChild, useEffect } from "react";
-import { useSpring, animated } from "@react-spring/web";
+import { animated, useSpring } from "@react-spring/web";
 import { createUseGesture, dragAction, pinchAction } from "@use-gesture/react";
+import React, { ReactChild, useEffect } from "react";
 import styled from "styled-components";
 
 const StyledCard = styled.div`
+  z-index: 10;
   cursor: grab;
   touch-action: none;
   user-select: none;
@@ -36,7 +37,7 @@ export default function BroccoBro({ children }: { children: ReactChild }) {
 
   useGesture(
     {
-      // onHover: ({ active, event }) => console.log('hover', event, active),
+      // onHover: ({ active, event }) => console.log('hover', event, active), //TODO: pratbubbla?
       // onMove: ({ event }) => console.log('move', event),
       onDrag: ({ pinching, cancel, offset: [x, y], ...rest }) => {
         if (pinching) return cancel();
