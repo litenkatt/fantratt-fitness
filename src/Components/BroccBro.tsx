@@ -1,5 +1,5 @@
 import React from "react";
-import fflogo from "../res/images/fflogo.svg";
+import broccbro from "../res/images/broccbro.svg";
 import WordArt from "react-wordart";
 import styled, { keyframes } from "styled-components";
 import Draggable from "./Draggable";
@@ -20,7 +20,7 @@ const StyledLogo = styled.img`
 function BroccBro() {
   return (
     <Draggable>
-      <StyledLogo src={fflogo} alt="logo" />
+      <StyledLogo src={broccbro} alt="logo" />
     </Draggable>
   );
 }
