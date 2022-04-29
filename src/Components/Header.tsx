@@ -5,7 +5,7 @@ const StyledHeader = styled.div`
   background: ${(props) => props.theme.background};
   height: 15vh;
   width: 100vw;
-  padding: 20px;
+  padding: 1.2rem;
   top: 0;
   z-index: 0;
   position: relative;
@@ -23,7 +23,10 @@ const StyledHeader = styled.div`
   & h1 {
     color: white;
     font-size: 5rem;
-    -webkit-text-stroke: 3px black;
+    font-weight: 400;
+    padding: 1rem;
+    /* -webkit-text-stroke: 1px black; */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
 `;
 

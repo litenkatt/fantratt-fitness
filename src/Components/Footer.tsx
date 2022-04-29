@@ -7,7 +7,7 @@ import zoombrocc from "../res/images/zoombrocc.png";
 const StyledFooter = styled.div`
   height: 15vh;
   width: 100vw;
-  padding: 10px;
+  padding: 1.2rem;
   bottom: 0;
   z-index: 0;
   position: relative;
@@ -40,7 +40,7 @@ const StyledFooter = styled.div`
 `;
 
 const StyledLogo = styled.img`
-  height: 5rem;
+  height: 4rem;
   z-index: 1;
   padding: 2rem;
   filter: none;
@@ -49,7 +49,7 @@ const StyledLogo = styled.img`
 function Footer() {
   return (
     <StyledFooter>
-      <div></div>
+      <div></div> {/* Empty div for background */}
       <a href="https://www.instagram.com/fantrattfitness/" target="_blank">
         <StyledLogo src={iglogo} alt="logo" />
       </a>

@@ -27,7 +27,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.97577018"
-     inkscape:cx="69.176125"
+     inkscape:cx="167.55995"
      inkscape:cy="305.9122"
      inkscape:window-width="1920"
      inkscape:window-height="991"
@@ -168,15 +168,15 @@
        y="142.87251" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.6457px;line-height:1.25;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;fill:#ffffff;stroke:#000000;stroke-width:1.591;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="66.552147"
-       y="160.14417"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.6977px;line-height:2.25;font-family:'Mystery Quest';-inkscape-font-specification:'Mystery Quest';letter-spacing:0px;fill:#ffffff;stroke:#000000;stroke-width:0.662494;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="70.973572"
+       y="156.06721"
        id="text13116"
-       transform="scale(0.95723339,1.0446773)"><tspan
+       transform="scale(0.92883132,1.0766218)"><tspan
          sodipodi:role="line"
          id="tspan13114"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';fill:#ffffff;stroke:#000000;stroke-width:1.591;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         x="66.552147"
-         y="160.14417">FF</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Mystery Quest';-inkscape-font-specification:'Mystery Quest';fill:#ffffff;stroke:#000000;stroke-width:0.662494;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="70.973572"
+         y="156.06721">FF</tspan></text>
   </g>
 </svg>

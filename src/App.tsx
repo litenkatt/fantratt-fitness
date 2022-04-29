@@ -18,9 +18,6 @@ const theme = {
 };
 
 const GlobalStyle = createGlobalStyle`
-  body {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-  }
 `;
 
 function App() {
